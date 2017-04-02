@@ -2,6 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/addPersonRealmBtn"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="Insert 1000 people (realm)" />
+    <Button
+        android:id="@+id/getPersonRealmBtn"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="Get 1000 people (realm)" />
+    <Button
+        android:id="@+id/addPersonSqliteBtn"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="Insert 1000 people (SQLite)" />
+    <Button
+        android:id="@+id/getPersonSqliteBtn"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="Get 1000 people (SQLite)" />
+    <TextView
+        android:id="@+id/outputTextView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:inputType="textMultiLine" />
 </LinearLayout>

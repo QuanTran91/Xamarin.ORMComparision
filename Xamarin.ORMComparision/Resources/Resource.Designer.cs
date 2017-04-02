@@ -26,6 +26,8 @@ namespace Xamarin.ORMComparision
 		
 		public static void UpdateIdValues()
 		{
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::Xamarin.ORMComparision.Resource.String.ApplicationName;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::Xamarin.ORMComparision.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -53,6 +55,34 @@ namespace Xamarin.ORMComparision
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int addPersonRealmBtn = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int addPersonSqliteBtn = 2131034114;
+			
+			// aapt resource value: 0x7f050001
+			public const int getPersonRealmBtn = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int getPersonSqliteBtn = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int outputTextView = 2131034116;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
